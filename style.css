@@ -181,12 +181,13 @@ hr {
 
 h1 {
   font-size: 4rem;
-  color: #454545;
+  color: #1e836c;
 }
 
 /* hand emoji  */
 .fa-hand-point-right {
   margin: 5rem 0 0 7rem;
+  color: #1e836c;
 }
 
 #video {
@@ -196,6 +197,12 @@ h1 {
 }
 
 /* pricing section  */
+.main-pricing-heading {
+  color: #1e836c;
+  text-align: center;
+  margin-top: 5rem;
+}
+
 #pricing {
   font-size: 1.7rem;
   margin: 0 10rem;
@@ -297,6 +304,7 @@ span {
   }
   nav ul {
     width: 100%;
+    background-color: #c5ded7;
     position: absolute;
     top: 75px;
     right: 0;
