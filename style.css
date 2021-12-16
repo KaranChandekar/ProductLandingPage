@@ -393,6 +393,7 @@ span {
       display: none;
     }
     #video {
+      margin-left: 1rem;
       border-radius: 1rem;
       box-shadow: 1rem 1rem 1.6rem #888888;
     }
