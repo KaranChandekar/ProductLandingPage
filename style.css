@@ -26,7 +26,7 @@ body {
   width: 100%;
   display: flex;
   align-items: center;
-  background-color: #34ffd3;
+  background-color: #c5ded7;
   position: fixed;
 }
 
@@ -55,12 +55,12 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #fff;
+  color: #45b29a;
   font-size: 2rem;
   transition: 1s;
 }
 
-#nav-bar ul li a:hover {
+nav ul li a:hover {
   color: #40514e;
 }
 
@@ -79,7 +79,7 @@ nav ul li a {
 #form-heading {
   margin-bottom: 2rem;
   font-size: 4rem;
-  color: #454545;
+  color: #1e836c;
   text-align: center;
 }
 
@@ -98,7 +98,7 @@ nav ul li a {
 }
 
 #submit {
-  background-color: #34ffd3;
+  background-color: #3ea08a;
   color: #454545;
   font-size: 2rem;
   padding: 1rem 1.8rem;
@@ -122,6 +122,7 @@ hr {
 }
 
 /* feature section  */
+
 #features {
   margin: 0 22rem;
   padding-top: 1rem;
@@ -156,13 +157,18 @@ hr {
 }
 
 /* feature para  */
+.main-feature-heading {
+  color: #1e836c;
+  text-align: center;
+  margin-top: 5rem;
+}
 .desc {
   text-align: left;
 }
 
 .feature-heading {
   padding-bottom: 2rem;
-  color: #34ffd3;
+  color: #45b29a;
 }
 
 /* video section  */
@@ -185,7 +191,6 @@ h1 {
 
 #video {
   margin-left: 20rem;
-  padding: 2rem;
   border-radius: 1rem;
   box-shadow: 1rem 1rem 1.6rem #888888;
 }
@@ -213,8 +218,8 @@ h1 {
 }
 
 .level {
-  background-color: #34ffd3;
-  color: #fff;
+  background-color: #3ea08a;
+  color: #1e836c;
   padding: 1.5rem 0;
   width: 100%;
   font-weight: 700;
@@ -230,7 +235,7 @@ li {
 }
 
 button {
-  background-color: #34ffd3;
+  background-color: #3ea08a;
   border: 0;
   margin: 1.5rem 0 0 0;
   padding: 1rem 0;
@@ -263,7 +268,7 @@ footer ul li {
 
 footer ul li a {
   text-decoration: none;
-  color: #454545;
+  color: #45b29a;
   transition: 1s;
 }
 
@@ -274,7 +279,7 @@ footer ul li a:hover {
 
 span {
   text-align: center;
-  color: #454545;
+  color: #45b29a;
 }
 
 /* Responsive code  */
@@ -292,7 +297,6 @@ span {
   }
   nav ul {
     width: 100%;
-    background: #34ffd3;
     position: absolute;
     top: 75px;
     right: 0;
@@ -302,9 +306,6 @@ span {
     display: block;
     margin-top: 10px;
     margin-bottom: 10px;
-  }
-  nav ul li a {
-    color: #000;
   }
   .fa-bars {
     display: block;
@@ -318,7 +319,6 @@ span {
   #home {
     height: 100vh;
     width: 100vw;
-    background-color: #e4f9f5;
     padding: 15rem 1rem;
   }
   #form-container {
@@ -327,7 +327,6 @@ span {
   #form-heading {
     margin-bottom: 10rem;
     font-size: 3.7rem;
-    color: #454545;
     text-align: center;
   }
   #form {
@@ -356,17 +355,14 @@ span {
   .fa-fire {
     float: none;
     margin: 0;
-    color: #f19114;
   }
   .fa-truck {
     float: none;
     margin: 0;
-    color: #f19114;
   }
   .fa-battery-full {
     float: none;
     margin: 0;
-    color: #f19114;
   }
   .desc {
     text-align: center;
@@ -374,27 +370,29 @@ span {
   .feature-heading {
     padding: 3rem 0 2rem 0;
     font-size: 3rem;
-    color: #34ffd3;
+    color: #45b29a;
   }
 
   /* responsive video section  */
     #how-it-works {
+      margin: 0;
       display: block;
-      padding: 3rem 1rem;
+      padding: 0;
       font-size: 1.7rem;
       text-align: center;
     }
     h1 {
-      margin-bottom: 3rem;
+      margin-bottom: 1rem;
       font-size: 4rem;
       color: #454545;
     }
     .fa-hand-point-right {
-      display: none;
+      margin: 2rem auto;
+      transform: rotate(90deg);
     }
     #video {
-      margin-left: 1rem;
-      border-radius: 1rem;
+      margin-left: 0;
+      border-radius: .6rem;
       box-shadow: 1rem 1rem 1.6rem #888888;
     }
 
@@ -417,7 +415,7 @@ span {
     }
     
     .level {
-      color: #fff;
+      color: #1e836c;
       padding: 1.5rem 0;
       width: 100%;
       font-weight: 700;
@@ -433,7 +431,7 @@ span {
     }
     
     button {
-      background-color: #34ffd3;
+      background-color: #1e836c;
       border: 0;
       margin: 1.5rem 0 0 0;
       padding: 1rem 0;
