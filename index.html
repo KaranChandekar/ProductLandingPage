@@ -12,35 +12,34 @@
     ></script>
   </head>
   <body>
-    <!-- header starts here  -->
-    <header id="header">
-      <!-- navbar left-image  -->
+    <!-- navbar starts here -->
+    <div class="navbar">
       <img
         src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
         alt="Original Trombones"
-        id="header-img"
+        id="navbar-img"
       />
-
-      <!-- navbar right-content links  -->
-      <nav id="nav-bar">
-        <ul>
+      <nav>
+        <ul id="menuList">
           <li class="nav-link"><a href="#home"> Home</a></li>
           <li class="nav-link"><a href="#features"> Features</a></li>
           <li class="nav-link"><a href="#how-it-works"> How It Works</a></li>
           <li class="nav-link"><a href="#pricing"> Pricing</a></li>
         </ul>
       </nav>
-    </header>
-    <!-- header ends here  -->
+      <div onclick="togglemenu()">
+        <i class="fas fa-bars fa-3x"></i>
+      </div>
+    </div>
+    <!-- navbar ends here  -->
 
     <div class="top-container" id="home">
-      <!-- form section starts here  -->
-      <div id="form-section">
-        <!-- form heading  -->
+      <div id="form-container">
         <h2 id="form-heading">Handcrafted, home-made masterpieces</h2>
-
-        <!-- main form starts here -->
-        <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <form
+          id="form"
+          action="https://www.freecodecamp.com/email-submit"
+        >
           <input
             name="email"
             id="email"
@@ -48,23 +47,17 @@
             placeholder="Enter your email address"
             required
           />
-          <!-- get started button  -->
-          <input id="submit" type="submit" value="Get Started" class="btn" />
+            <input id="submit" type="submit" value="Get Started" />
         </form>
-        <!-- form ends here  -->
       </div>
-      <!-- form section ends here  -->
     </div>
 
     <!-- feature section starts here  -->
     <section id="features">
-      <!-- material section  -->
       <div class="grid">
-        <!-- fire icon  -->
         <div class="icon">
           <i class="fas fa-fire fa-7x"></i>
         </div>
-        <!-- materials info  -->
         <div class="desc">
           <h2 class="feature-heading">Premium Materials</h2>
           <p>
@@ -108,31 +101,28 @@
     </section>
     <!-- feature section ends here  -->
 
-    <hr>
+    <hr />
 
     <!-- video section starts here  -->
     <section id="how-it-works">
-      <div id="works-content">
-        <div class="left-content">
-          <h1>How It Works ?</h1>
-          <i class="far fa-hand-point-right fa-7x"></i>
-        </div>
-
-        <!-- adding video  -->
-        <iframe
-          src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&controls=0&showinfo=0"
-          frameborder="0"
-          id="video"
-          height="300"
-          width="400"
-          allowfullscreen
-        >
-        </iframe>
+      <div class="left-content">
+        <h1>How It Works ?</h1>
+        <i class="far fa-hand-point-right fa-7x"></i>
       </div>
+
+      <!-- adding video  -->
+      <iframe
+        src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&controls=0&showinfo=0"
+        frameborder="0"
+        id="video"
+        height="180"
+        allowfullscreen
+      >
+      </iframe>
     </section>
     <!-- video section ends here  -->
 
-    <hr>
+    <hr />
 
     <!-- pricing section starts here  -->
     <section id="pricing">
@@ -202,5 +192,18 @@
       </div>
     </footer>
     <!-- footer ends here  -->
+
+    <!-- javascript  -->
+    <script>
+      let menuList = document.getElementById("menuList");
+      menuList.style.maxHeight = "0px";
+      function togglemenu() {
+        if (menuList.style.maxHeight == "0px") {
+          menuList.style.maxHeight = "190px";
+        } else {
+          menuList.style.maxHeight = "0px";
+        }
+      }
+    </script>
   </body>
 </html>
