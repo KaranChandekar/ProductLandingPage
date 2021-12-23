@@ -6,7 +6,7 @@ Product landing page using html, css and little bit Javascript. This project is 
 
 ## Know More
 
- - [Visit my portfolio](https://portfolio-me-karanchandekar.vercel.app/)
+ - [Visit this site](http://product-landing-page-omega.vercel.app/)
  - [Awesome README](https://github.com/matiassingers/awesome-readme)
  - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
